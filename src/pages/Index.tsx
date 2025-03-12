@@ -53,22 +53,34 @@ const Index = () => {
             transition={{ delay: 0.4 }}
             className="flex flex-col md:flex-row gap-4 justify-center mb-16"
           >
-            <Button 
-              variant="default" 
-              size="lg"
-              className="bg-black text-white hover:bg-gray-800 transform hover:scale-105 transition-all"
+            <a 
+              href="https://apps.apple.com/us/app/sesame-ai-voice-companion/id6743081501"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Apple className="mr-2 h-5 w-5" />
-              Download for iOS
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-2 hover:bg-sesame-primary/10 transform hover:scale-105 transition-all"
+              <Button 
+                variant="default" 
+                size="lg"
+                className="bg-black text-white hover:bg-gray-800 transform hover:scale-105 transition-all"
+              >
+                <Apple className="mr-2 h-5 w-5" />
+                Download for iOS
+              </Button>
+            </a>
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.nextalk.app"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Smartphone className="mr-2 h-5 w-5" />
-              Get it on Android
-            </Button>
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="border-2 hover:bg-sesame-primary/10 transform hover:scale-105 transition-all"
+              >
+                <Smartphone className="mr-2 h-5 w-5" />
+                Get it on Android
+              </Button>
+            </a>
           </motion.div>
         </div>
       </section>
