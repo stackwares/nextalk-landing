@@ -54,7 +54,7 @@ const Index = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="col-span-4 p-[50px] bg-white rounded-3xl shadow-lg"
+              className="col-span-4 p-[10px] md:p-[50px] bg-white rounded-3xl shadow-lg"
             >
               <img
                 src="/lovable-uploads/d37d6696-8c7c-43b6-87f9-ca80fd121ac0.png"
