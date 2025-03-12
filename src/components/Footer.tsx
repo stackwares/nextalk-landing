@@ -33,7 +33,7 @@ const Footer = () => {
                 Android App
               </a>
               <a 
-                href="mailto:support@sesame-ai.com"
+                href="mailto:stackwares+nextalk@gmail.com"
                 className="text-sesame-text hover:text-sesame-primary transition-colors"
               >
                 Contact Us

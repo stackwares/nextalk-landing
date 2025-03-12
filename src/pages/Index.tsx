@@ -50,14 +50,18 @@ const Index = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
-            <motion.img
+            <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              src="/lovable-uploads/d37d6696-8c7c-43b6-87f9-ca80fd121ac0.png"
-              alt="Sesame AI App Screenshots"
-              className="col-span-4 max-w-4xl mx-auto rounded-2xl shadow-lg"
-            />
+              className="col-span-4 p-[50px] bg-white rounded-3xl shadow-lg"
+            >
+              <img
+                src="/lovable-uploads/d37d6696-8c7c-43b6-87f9-ca80fd121ac0.png"
+                alt="Sesame AI App Screenshots"
+                className="w-full rounded-2xl shadow-md"
+              />
+            </motion.div>
           </div>
 
           <motion.div
