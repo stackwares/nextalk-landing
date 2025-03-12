@@ -1,8 +1,10 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Apple, Smartphone, Brain, MessageSquare, Lock } from "lucide-react";
+import { Apple, Smartphone, Brain, MessageSquare, Lock, Star, User } from "lucide-react";
 import { motion } from "framer-motion";
+import UserReviews from "@/components/UserReviews";
+import Footer from "@/components/Footer";
 
 const features = [
   {
@@ -138,6 +140,12 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* User Reviews Section */}
+      <UserReviews />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
