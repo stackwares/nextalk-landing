@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Apple, PlayStore, Sparkles, Brain, MessageSquare, Lock } from "lucide-react";
+import { Apple, Smartphone, Sparkles, Brain, MessageSquare, Lock } from "lucide-react";
 import { motion } from "framer-motion";
 
 const features = [
@@ -66,7 +66,7 @@ const Index = () => {
               size="lg"
               className="border-2 hover:bg-sesame-primary/10 transform hover:scale-105 transition-all"
             >
-              <PlayStore className="mr-2 h-5 w-5" />
+              <Smartphone className="mr-2 h-5 w-5" />
               Get it on Android
             </Button>
           </motion.div>
