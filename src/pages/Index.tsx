@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Apple, Smartphone, Sparkles, Brain, MessageSquare, Lock } from "lucide-react";
+import { Apple, Smartphone } from "lucide-react";
 import { motion } from "framer-motion";
 
 const features = [
@@ -34,17 +33,6 @@ const Index = () => {
             transition={{ duration: 0.8 }}
             className="mb-8"
           >
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
-              <motion.img
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                src="/lovable-uploads/d37d6696-8c7c-43b6-87f9-ca80fd121ac0.png"
-                alt="Sesame AI App Screenshots"
-                className="col-span-4 max-w-4xl mx-auto rounded-2xl shadow-lg"
-              />
-            </div>
-            
             <img 
               src="/lovable-uploads/9be6a163-4522-44c4-8516-3c115a350751.png" 
               alt="Sesame AI Logo" 
@@ -57,6 +45,17 @@ const Index = () => {
               Your intelligent voice assistant that understands and responds like a human
             </p>
           </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
+            <motion.img
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              src="/lovable-uploads/d37d6696-8c7c-43b6-87f9-ca80fd121ac0.png"
+              alt="Sesame AI App Screenshots"
+              className="col-span-4 max-w-4xl mx-auto rounded-2xl shadow-lg"
+            />
+          </div>
 
           <motion.div
             initial={{ opacity: 0 }}
