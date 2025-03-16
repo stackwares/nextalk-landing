@@ -13,7 +13,7 @@ interface SEOProps {
 const SEO = ({
   title = 'Sesame AI Voice Companion',
   description = 'Experience the most human-like AI voice companion. Sesame AI offers natural conversations powered by cutting-edge artificial intelligence.',
-  canonicalUrl = 'https://yourdomain.com',
+  canonicalUrl = 'https://sesame-ai.app',
   ogImage = '/og-image.png',
   ogType = 'website'
 }: SEOProps) => {
@@ -22,6 +22,7 @@ const SEO = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
+      <link rel="icon" href="/lovable-uploads/cee2e2ba-c0c8-4b2a-b5eb-50a5dd0a6088.png" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={ogType} />
