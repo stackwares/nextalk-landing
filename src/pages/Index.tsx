@@ -1,9 +1,12 @@
+
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Apple, Smartphone, Brain, MessageSquare, Lock, Star, User } from "lucide-react";
+import { Apple, Smartphone, Brain, MessageSquare, Lock } from "lucide-react";
 import { motion } from "framer-motion";
 import UserReviews from "@/components/UserReviews";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
+
 const features = [{
   icon: <Brain className="w-6 h-6" />,
   title: "Advanced AI",
@@ -17,8 +20,15 @@ const features = [{
   title: "Private & Secure",
   description: "Your conversations stay confidential"
 }];
+
 const Index = () => {
-  return <div className="min-h-screen bg-sesame-background">
+  return (
+    <div className="min-h-screen bg-sesame-background">
+      <SEO 
+        title="Sesame AI Voice Companion | Most Human-Like AI Voice App"
+        description="Experience the most human-like AI voice companion with Sesame AI. Natural conversations powered by cutting-edge artificial intelligence."
+      />
+      
       {/* Hero Section */}
       <section className="container mx-auto px-4 pt-20 pb-32">
         <div className="max-w-6xl mx-auto text-center">
@@ -128,6 +138,8 @@ const Index = () => {
 
       {/* Footer */}
       <Footer />
-    </div>;
+    </div>
+  );
 };
+
 export default Index;
