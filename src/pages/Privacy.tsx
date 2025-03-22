@@ -29,57 +29,87 @@ const Privacy = () => {
 
           <div className="prose prose-slate max-w-none">
             <p className="lead">
-              At Sesame AI, we take your privacy seriously. This Privacy Policy describes how we collect, use, and share your personal information when you use our app and website.
+              Stackwares built the Sesame AI app as an Ad Supported app. This SERVICE is provided by Stackwares at no cost and is intended for use as is.
             </p>
 
-            <h2>1. Information We Collect</h2>
             <p>
-              We may collect personal information such as your name, email address, and device information when you use our service. We also collect information about your interactions with our AI companion.
+              This page informs you of our policies regarding the collection, use, and disclosure of Personal Information when you use our Service. By using Sesame AI, you agree to the collection and use of information in accordance with this policy.
             </p>
 
-            <h2>2. How We Use Your Information</h2>
+            <div className="bg-amber-50 border-l-4 border-amber-400 p-4 mb-8">
+              <p className="font-semibold">Important Note:</p> 
+              <p>The Personal Information we collect is used solely for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
+            </div>
+
+            <h2>Information Collection and Use</h2>
             <p>
-              We use your information to provide and improve our service, personalize your experience, communicate with you, and ensure the security of our service. We also use data to train and improve our AI systems.
+              For a better experience while using our Service, we may request that you provide us with certain personally identifiable information, including but not limited to User ID and Email. The information we request will be retained and used as described in this privacy policy.
+            </p>
+            
+            <p>
+              The app uses third-party services that may collect information used to identify you:
+            </p>
+            <ul className="ml-6 list-disc space-y-2">
+              <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google Play Services</a></li>
+              <li><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google Analytics for Firebase</a></li>
+              <li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Firebase Crashlytics</a></li>
+              <li><a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Sentry</a></li>
+              <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">RevenueCat</a></li>
+            </ul>
+
+            <h2>Log Data</h2>
+            <p>
+              We want to inform you that whenever you use our Service, in the case of an error, we collect data and information (through third-party products) on your device called Log Data. This Log Data may include information such as your device's Internet Protocol ("IP") address, device name, operating system version, app configuration when using our Service, the time and date of your use of the Service, and other statistics.
             </p>
 
-            <h2>3. Information Sharing</h2>
+            <h2>Cookies</h2>
             <p>
-              We do not sell your personal information. We may share your information with service providers who help us deliver our service, or if required by law. We may also share anonymized data for research purposes.
+              Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from websites you visit and are stored on your device's internal memory.
+            </p>
+            <p>
+              This Service does not use "cookies" explicitly. However, the app may use third-party code and libraries that use "cookies" to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
             </p>
 
-            <h2>4. Data Security</h2>
+            <h2>Service Providers</h2>
             <p>
-              We implement reasonable security measures to protect your personal information from unauthorized access, alteration, or disclosure. However, no method of transmission over the Internet is 100% secure.
+              We may employ third-party companies and individuals for the following reasons:
+            </p>
+            <ul className="ml-6 list-disc space-y-2">
+              <li>To facilitate our Service</li>
+              <li>To provide the Service on our behalf</li>
+              <li>To perform Service-related services</li>
+              <li>To assist us in analyzing how our Service is used</li>
+            </ul>
+            <p>
+              We want to inform users of this Service that these third parties have access to their Personal Information to perform tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
             </p>
 
-            <h2>5. Your Rights</h2>
+            <h2>Security</h2>
             <p>
-              Depending on your location, you may have rights regarding your personal information, such as the right to access, correct, or delete your data. Contact us to exercise these rights.
+              We value your trust in providing us your Personal Information, thus we strive to use commercially acceptable means of protecting it. However, please remember that no method of transmission over the internet or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
             </p>
 
-            <h2>6. Children's Privacy</h2>
+            <h2>Links to Other Sites</h2>
             <p>
-              Our service is not intended for children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with their information, please contact us.
+              This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
             </p>
 
-            <h2>7. Changes to This Policy</h2>
+            <h2>Children's Privacy</h2>
             <p>
-              We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the effective date.
+              These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. If we discover that a child under 13 has provided us with personal information, we immediately delete it from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we can take necessary actions.
             </p>
 
-            <h2>8. Third-Party Links</h2>
+            <h2>Changes to This Privacy Policy</h2>
             <p>
-              Our service may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties, and we encourage you to read their privacy policies.
+              We may update our Privacy Policy from time to time. We recommend that you review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
+            </p>
+            <p>
+              This policy is effective as of May 1, 2023.
             </p>
 
-            <h2>9. Data Retention</h2>
+            <h2>Contact Us</h2>
             <p>
-              We retain your personal information for as long as necessary to provide our service and fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required by law.
-            </p>
-
-            <h2>10. Contact Us</h2>
-            <p>
-              If you have any questions about this Privacy Policy, please contact us at <a href="mailto:stackwares+nextalk@gmail.com">stackwares+nextalk@gmail.com</a>.
+              If you have any questions or suggestions about our Privacy Policy, please contact us at <a href="mailto:dev@stackwares.com" className="text-blue-600 hover:underline">dev@stackwares.com</a>.
             </p>
           </div>
         </div>
