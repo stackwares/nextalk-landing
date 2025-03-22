@@ -28,54 +28,73 @@ const Terms = () => {
           </div>
 
           <div className="prose prose-slate max-w-none">
+            <div className="bg-amber-50 border-l-4 border-amber-400 p-4 mb-8">
+              <p className="font-semibold">Disclaimer:</p> 
+              <p>Sesame AI is a wellness tool designed to provide insights into your heart rate. It is not intended to diagnose, treat, or cure any medical condition. Always seek the advice of a qualified healthcare provider before using this app and before making any medical decisions.</p>
+            </div>
+
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing or using the Sesame AI Voice Companion app or website, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
+              By downloading or using the Sesame AI app, these terms will automatically apply to you. Please read them carefully before using the app. You're not permitted to copy or modify the app, any part of the app, or our trademarks in any way. You're not allowed to attempt to extract the source code of the app, translate the app into other languages, or create derivative versions. The app itself, and all related trademarks, copyright, database rights, and other intellectual property rights, remain the property of Stackwares.
             </p>
 
-            <h2>2. Description of Service</h2>
+            <h2>2. App Updates and Charges</h2>
             <p>
-              Sesame AI is an artificial intelligence voice companion designed to engage in natural conversations with users. Our service provides AI-powered conversational experiences through mobile applications and web interfaces.
+              Stackwares is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you're paying for.
             </p>
 
-            <h2>3. User Accounts</h2>
+            <h2>3. Data Security</h2>
             <p>
-              You may be required to create an account to use certain features of our service. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
+              The Sesame AI app stores and processes personal data that you have provided to us to provide our Service. It's your responsibility to keep your device and access to the app secure. We recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions imposed by the official operating system of your device. This could make your device vulnerable to malware/viruses/malicious programs, compromise its security features, and could cause the Sesame AI app to malfunction.
             </p>
 
-            <h2>4. User Conduct</h2>
+            <h2>4. Third-Party Services</h2>
             <p>
-              You agree not to use our service for any unlawful purpose or in any way that could damage, disable, or impair the service. You further agree not to attempt to gain unauthorized access to any part of the service or systems.
+              The app uses third-party services that declare their own Terms and Conditions:
+            </p>
+            <ul className="ml-6 list-disc space-y-2">
+              <li><a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google Play Services</a></li>
+              <li><a href="https://firebase.google.com/terms/analytics" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Google Analytics for Firebase</a></li>
+              <li><a href="https://firebase.google.com/terms/crashlytics" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Firebase Crashlytics</a></li>
+              <li><a href="https://sentry.io/terms/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Sentry</a></li>
+              <li><a href="https://www.revenuecat.com/terms" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">RevenueCat</a></li>
+            </ul>
+
+            <h2>5. Connectivity Requirements</h2>
+            <p>
+              Certain functions of the app require an active internet connection. The connection can be Wi-Fi or provided by your mobile network provider, but Stackwares cannot take responsibility for the app not functioning at full capacity if you don't have access to Wi-Fi or have exhausted your data allowance.
+            </p>
+            <p>
+              If you're using the app outside of a Wi-Fi area, your mobile network provider's terms of agreement will still apply. As a result, you may be charged by your mobile provider for data costs while accessing the app, or for other third-party charges. By using the app, you're accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory without disabling data roaming. If you are not the bill payer for the device on which you're using the app, we assume that you have received permission from the bill payer.
             </p>
 
-            <h2>5. Intellectual Property</h2>
+            <h2>6. Limitation of Liability</h2>
             <p>
-              All content, features, and functionality of our service, including but not limited to text, graphics, logos, and software, are owned by Sesame AI and are protected by intellectual property laws.
+              Stackwares cannot always take responsibility for how you use the app. For example, you need to ensure that your device stays charged – if it runs out of battery and you can't access the Service, Stackwares cannot accept responsibility.
+            </p>
+            <p>
+              While we strive to ensure the app is updated and correct at all times, we rely on third parties to provide information to us. Stackwares accepts no liability for any loss, direct or indirect, that you experience as a result of relying wholly on the functionality of the app.
             </p>
 
-            <h2>6. Disclaimers</h2>
+            <h2>7. App Updates and Termination</h2>
             <p>
-              Our service is provided "as is" without warranties of any kind, either express or implied. We do not guarantee that our service will be uninterrupted, secure, or error-free.
+              We may update the app periodically. The app is currently available on Android & iOS – the requirements for both systems (and for any additional systems we extend availability to) may change, and you'll need to download updates to continue using the app. Stackwares does not guarantee that the app will always be updated to be compatible with the Android & iOS version installed on your device. However, you agree to always accept updates when offered. 
+            </p>
+            <p>
+              We may also discontinue the app and terminate its use at any time without notice. Unless otherwise specified, upon termination: (a) the rights and licenses granted to you will end; (b) you must stop using the app and delete it from your device if necessary.
             </p>
 
-            <h2>7. Limitation of Liability</h2>
+            <h2>8. Changes to Terms and Conditions</h2>
             <p>
-              To the fullest extent permitted by law, Sesame AI shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use the service.
+              We may update our Terms and Conditions periodically. We recommend that you review this page regularly for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.
+            </p>
+            <p>
+              These terms and conditions are effective as of May 1, 2023.
             </p>
 
-            <h2>8. Changes to Terms</h2>
+            <h2>9. Contact Us</h2>
             <p>
-              We reserve the right to modify these terms at any time. Your continued use of our service after such changes constitutes your acceptance of the new terms.
-            </p>
-
-            <h2>9. Governing Law</h2>
-            <p>
-              These terms shall be governed by and construed in accordance with the laws of the jurisdiction in which Sesame AI operates, without regard to its conflict of law provisions.
-            </p>
-
-            <h2>10. Contact Information</h2>
-            <p>
-              If you have any questions about these Terms, please contact us at <a href="mailto:stackwares+nextalk@gmail.com">stackwares+nextalk@gmail.com</a>.
+              If you have any questions or suggestions about our Terms and Conditions, please contact us at <a href="mailto:dev@stackwares.com" className="text-blue-600 hover:underline">dev@stackwares.com</a>.
             </p>
           </div>
         </div>
