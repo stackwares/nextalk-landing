@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -47,22 +47,18 @@ const Footer = () => {
                 © {new Date().getFullYear()} Sesame AI. All rights reserved.
               </p>
               <div className="flex gap-6">
-                <a 
-                  href="https://stackwares.notion.site/Sesame-AI-Terms-1b223f4ccfd881c88c8bef5ed01e1259"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link 
+                  to="/terms"
                   className="text-sm text-gray-500 hover:text-sesame-primary transition-colors"
                 >
                   Terms of Service
-                </a>
-                <a 
-                  href="https://stackwares.notion.site/Sesame-AI-Privacy-Policy-1b223f4ccfd88133b02cd5205e470f48"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                </Link>
+                <Link 
+                  to="/privacy"
                   className="text-sm text-gray-500 hover:text-sesame-primary transition-colors"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </div>
             </div>
           </div>
