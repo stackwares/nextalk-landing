@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Apple, Smartphone, Brain, MessageSquare, Lock } from "lucide-react";
@@ -6,7 +5,6 @@ import { motion } from "framer-motion";
 import UserReviews from "@/components/UserReviews";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-
 const features = [{
   icon: <Brain className="w-6 h-6" />,
   title: "Advanced AI",
@@ -20,14 +18,9 @@ const features = [{
   title: "Private & Secure",
   description: "Your conversations stay confidential"
 }];
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-sesame-background">
-      <SEO 
-        title="Sesame AI Voice Companion | Most Human-Like AI Voice App"
-        description="Experience the most human-like AI voice companion with Sesame AI. Natural conversations powered by cutting-edge artificial intelligence."
-      />
+  return <div className="min-h-screen bg-sesame-background">
+      <SEO title="Sesame AI Voice Companion | Most Human-Like AI Voice App" description="Experience the most human-like AI voice companion with Sesame AI. Natural conversations powered by cutting-edge artificial intelligence." />
       
       {/* Hero Section */}
       <section className="container mx-auto px-4 pt-20 pb-32">
@@ -42,8 +35,8 @@ const Index = () => {
           duration: 0.8
         }} className="mb-8">
             <img src="/lovable-uploads/9be6a163-4522-44c4-8516-3c115a350751.png" alt="Sesame AI Logo" className="w-24 h-24 mx-auto mb-6 animate-float" />
-            <h1 className="text-5xl md:text-7xl font-bold text-sesame-text mb-6">Sesame AI</h1>
-            <p className="text-xl md:text-2xl text-sesame-secondary mb-8 max-w-2xl mx-auto">The Most Human-Like AI Voice Companion</p>
+            <h1 className="text-5xl md:text-7xl font-bold text-sesame-text mb-6">Sesame Voice AI</h1>
+            <p className="text-xl md:text-2xl text-sesame-secondary mb-8 max-w-2xl mx-auto">Talk to Maya & Miles anytime in our app!</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-12">
@@ -138,8 +131,6 @@ const Index = () => {
 
       {/* Footer */}
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
