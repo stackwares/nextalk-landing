@@ -20,7 +20,7 @@ const features = [{
 }];
 const Index = () => {
   return <div className="min-h-screen bg-sesame-background">
-      <SEO title="Sesame AI Voice Companion | Most Human-Like AI Voice App" description="Experience the most human-like AI voice companion with Sesame AI. Natural conversations powered by cutting-edge artificial intelligence." />
+      <SEO title="Sesame Voice AI App" description="Talk to Maya & Miles anytime within our app!" />
       
       {/* Hero Section */}
       <section className="container mx-auto px-4 pt-20 pb-32">
